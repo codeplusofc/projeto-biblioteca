@@ -10,6 +10,11 @@ public class Locacao {
     private Data dataDevolucao;
     private Livro objLivroLocado;
 
+    public Locacao() {
+        this.objFuncionario = new Funcionario();
+    }
+
+
     public double getValorLocacao() {
         return valorLocacao;
     }

@@ -1,4 +1,4 @@
-package projbibliotecanoite;
+package biblioteca;
 
 public class Locacao {
     private double valorLocacao;

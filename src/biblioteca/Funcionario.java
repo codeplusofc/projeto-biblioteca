@@ -1,4 +1,4 @@
-package projbibliotecanoite;
+package biblioteca;
 
 public class Funcionario {
     private String nome;

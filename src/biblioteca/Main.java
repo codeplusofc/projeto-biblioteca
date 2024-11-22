@@ -1,11 +1,11 @@
-package projbibliotecanoite;
+package biblioteca;
 
 import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
 
-        Locacao locacao = new Locacao();
+        projbibliotecanoite.Locacao locacao = new projbibliotecanoite.Locacao();
 
         Scanner scan = new Scanner(System.in);
 

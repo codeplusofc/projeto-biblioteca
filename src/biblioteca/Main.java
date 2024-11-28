@@ -5,8 +5,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        projbibliotecanoite.Locacao locacao = new projbibliotecanoite.Locacao();
-
+        Locacao locacao =new Locacao();
         Scanner scan = new Scanner(System.in);
 
         byte op =0;

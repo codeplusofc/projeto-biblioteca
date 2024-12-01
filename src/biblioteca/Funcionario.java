@@ -1,5 +1,4 @@
 package biblioteca;
-
 public class Funcionario {
     private String nome;
     private long cpf;
@@ -45,5 +44,10 @@ public class Funcionario {
 
     public void setObjEndereco(Endereco objEndereco) {
         this.objEndereco = objEndereco;
+    }
+
+    @Override
+    public String toString() {
+        return "Funcionário: " + nome + ", CPF: " + cpf + ", Chapa: " + chapa + ", Salário: " + salario;
     }
 }

@@ -8,7 +8,7 @@ public class Main {
         Locacao locacao =new Locacao();
         Scanner scan = new Scanner(System.in);
 
-        byte op =0;
+        byte op ;
 
         do {
             System.out.println("Escolha uma opção abaixo\n" +
@@ -24,11 +24,18 @@ public class Main {
 
             switch (op){
                 case 1:
-                    System.out.println("Cadastrando funcionario");
+                    System.out.println("Cadastrando funcionário");
 
-                    System.out.println("Digite seu nome: ");
+                    System.out.print("Digite seu nome: ");
                     locacao.getObjFuncionario().setNome(scan.next());
-                    System.out.println(locacao.getObjFuncionario().getNome());
+                    System.out.println("Nome cadastrado: " + locacao.getObjFuncionario().getNome());
+
+                    System.out.print("Digite seu CPF: ");
+                    String cpfInput = scan.next();
+
+                    Funcionario funcionario = new Funcionario(); // Inicializando a variável
+
+                    funcionario.setCpf(funcionario.getCpf());1
                     break;
                     
                 case 2:

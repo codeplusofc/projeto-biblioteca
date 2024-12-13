@@ -27,8 +27,6 @@ public class Main {
                     System.out.println("Cadastrando funcionario");
 
                     System.out.println("Digite seu nome: ");
-                    locacao.getObjFuncionario().setNome(scan.next());
-                    System.out.println(locacao.getObjFuncionario().getNome());
                     break;
                     
                 case 2:
@@ -36,6 +34,14 @@ public class Main {
                     break;
                 case 3:
                     System.out.println("Cadastrando Livro");
+
+                    System.out.println("Digite o titulo");
+                    locacao.getObjLivro().setTitulo(scan.next());
+                    System.out.println("Digite o genero");
+                    locacao.getObjLivro().setGenero(scan.next());
+                    System.out.println("Digite o autor");
+                    locacao.getObjLivro().setAutor(scan.next());
+
                     break;
                 case 4:
                     System.out.println("Mostrar dados de cadastro");

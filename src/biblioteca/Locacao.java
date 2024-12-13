@@ -12,6 +12,7 @@ public class Locacao {
 
     public Locacao() {
         this.objFuncionario = new Funcionario();
+        this.objLivro = new Livro();
     }
 
 

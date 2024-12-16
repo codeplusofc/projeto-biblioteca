@@ -35,7 +35,7 @@ public class Main {
 
                     Funcionario funcionario = new Funcionario(); // Inicializando a variável
 
-                    funcionario.setCpf(funcionario.getCpf());1
+                    funcionario.setCpf(funcionario.getCpf());
                     break;
                     
                 case 2:

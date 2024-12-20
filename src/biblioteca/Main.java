@@ -39,8 +39,10 @@ public class Main {
                     locacao.getObjUsuario().setCodigo(scan.nextInt());
                     System.out.println("Digite o seu cpf");
                     locacao.getObjUsuario().setCpf(scan.nextLong());
-
+                    System.out.println("DADOS DO USUARIO");
+                    System.out.println(locacao.getObjUsuario().toString());
                     break;
+
                 case 3:
                     System.out.println("Cadastrando Livro");
                     break;

@@ -8,7 +8,7 @@ public class Main {
         Locacao locacao =new Locacao();
         Scanner scan = new Scanner(System.in);
 
-        byte op ;
+        byte op;
 
         do {
             System.out.println("Escolha uma opção abaixo\n" +

@@ -31,18 +31,30 @@ public class Main {
                     
                 case 2:
                     System.out.println("Cadastrando usuario");
+                    System.out.println("Digite o seu nome");
+                    locacao.getObjUsuario().setNome(scan.next());
+                    System.out.println("Digite o seu codigo");
+                    locacao.getObjUsuario().setCodigo(scan.nextInt());
+                    System.out.println("Digite o seu cpf");
+                    locacao.getObjUsuario().setCpf(scan.nextLong());
+                    System.out.println("DADOS DO USUARIO");
+                    System.out.println(locacao.getObjUsuario().toString());
                     break;
+
                 case 3:
                     System.out.println("Cadastrando Livro");
 
                     System.out.println("Digite o titulo");
-                    locacao.getObjLivro().setTitulo(scan.next());
-                    System.out.println("Digite o genero");
-                    locacao.getObjLivro().setGenero(scan.next());
-                    System.out.println("Digite o autor");
-                    locacao.getObjLivro().setAutor(scan.next());
+                    scan.nextLine();
+                    locacao.getObjLivro().setTitulo(scan.nextLine());
 
+                    System.out.println("Digite o genero");
+                    locacao.getObjLivro().setGenero(scan.nextLine());
+
+                    System.out.println("Digite o autor");
+                    locacao.getObjLivro().setAutor(scan.nextLine());
                     break;
+
                 case 4:
                     System.out.println("Mostrar dados de cadastro");
                     break;

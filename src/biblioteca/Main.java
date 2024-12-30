@@ -25,17 +25,12 @@ public class Main {
             switch (op){
                 case 1:
                     System.out.println("Cadastrando funcionário");
-
-                    System.out.print("Digite seu nome: ");
+                    System.out.println("Digite seu nome");
                     locacao.getObjFuncionario().setNome(scan.next());
-                    System.out.println("Nome cadastrado: " + locacao.getObjFuncionario().getNome());
-
-                    System.out.print("Digite seu CPF: ");
-                    String cpfInput = scan.next();
-
-                    Funcionario funcionario = new Funcionario(); // Inicializando a variável
-
-                    funcionario.setCpf(funcionario.getCpf());
+                    System.out.println("Digite seu CPF");
+                    locacao.getObjFuncionario().setCpf(scan.nextLong());
+                    System.out.println("Digite seu cargo");
+                    locacao.getObjFuncionario().setChapa(scan.next());
                     break;
                     
                 case 2:
